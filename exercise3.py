@@ -1,8 +1,8 @@
-# Get 5 integers from the user and store them in a list
-numbers = [int(input(f"Enter integer {i+1}: ")) for i in range(5)]
+# Get a string from the user
+user_input = input("Enter a string: ")
 
-# Sort the list in descending order
-sorted_numbers = sorted(numbers, key=lambda x: -x)
+# Split the string into words and count them
+word_count = len(user_input.split())
 
-# Print the sorted list
-print("Sorted list in descending order:", sorted_numbers)
+# Print the word count
+print("Number of words:", word_count)
